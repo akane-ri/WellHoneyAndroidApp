@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Linden Honey",
+    "description": "Has a gentle linden aroma and a light minty aftertaste. Excellent for colds and coughs.",
+    "img": "https://example.com/images/linden_honey.jpg",
+    "price_500ml": "450₽",
+    "price_1l": "800₽"
+  },
+  {
+    "name": "Buckwheat Honey",
+    "description": "Dark and rich, high in iron. Has a distinctive tart taste.",
+    "img": "https://example.com/images/buckwheat_honey.jpg",
+    "price_500ml": "500₽",
+    "price_1l": "900₽"
+  },
+  {
+    "name": "Flower Honey",
+    "description": "Collected from meadow flowers. Light, fragrant, and versatile.",
+    "img": "https://example.com/images/flower_honey.jpg",
+    "price_500ml": "420₽",
+    "price_1l": "750₽"
+  },
+  {
+    "name": "Acacia Honey",
+    "description": "Very light, with a subtle taste and slow crystallization. Suitable even for children.",
+    "img": "https://example.com/images/acacia_honey.jpg",
+    "price_500ml": "550₽",
+    "price_1l": "1000₽"
+  },
+  {
+    "name": "Taiga Honey",
+    "description": "Collected in the ecologically clean areas of Siberia. Has a complex taste and powerful antiseptic properties.",
+    "img": "https://example.com/images/taiga_honey.jpg",
+    "price_500ml": "600₽",
+    "price_1l": "1100₽"
+  }
+]

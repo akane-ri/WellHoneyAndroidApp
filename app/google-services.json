@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "745828804389",
+    "project_id": "wellhoney-41b11",
+    "storage_bucket": "wellhoney-41b11.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745828804389:android:fd186efbb5f8353af75ccc",
+        "android_client_info": {
+          "package_name": "com.example.wellhoney"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhex84Z6FDUmhnITL-mtUNrX2VaL2FJxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

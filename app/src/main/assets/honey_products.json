@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1000001",
+    "name": "Липовый мёд",
+    "description": "Считается, что липовый мед обладает противовоспалительными свойствами и помогает при простуде и кашле.",
+    "highlight": ["противовоспалительными", "простуде", "кашле"],
+    "img": "https://raw.githubusercontent.com/akane-ri/wellhoney-assets/refs/heads/main/imageHoney/lipovii.png",
+    "price_500ml": 1999,
+    "price_1l": 3499
+  },
+  {
+    "id": "1000002",
+    "name": "Цветочный мёд",
+    "description": "Мед из ромашек помогает укрепить иммунитет, обладает успокаивающим действием и может помочь при бессоннице.",
+    "img": "https://raw.githubusercontent.com/akane-ri/wellhoney-assets/refs/heads/main/imageHoney/tsvetochnii.png",
+    "price_500ml": 999,
+    "price_1l": 1990
+  },
+  {
+    "id": "1000003",
+    "name": "Домашний мёд",
+    "description": "Мед из разных цветов как по-домашнему, вкусный и полезный, а главное - родной!",
+    "img": "https://raw.githubusercontent.com/akane-ri/wellhoney-assets/refs/heads/main/imageHoney/domashnii.png",
+    "price_500ml": 799,
+    "price_1l": 1390
+  },
+  {
+    "id": "1000004",
+    "name": "Горный мёд",
+    "description": "Мед, собираемый пчелами в горных районах. Содержит больше минералов и витаминов, чем другие виды меда.",
+    "img": "https://raw.githubusercontent.com/akane-ri/wellhoney-assets/refs/heads/main/imageHoney/gornii.png",
+    "price_500ml": 2999,
+    "price_1l": 5499
+  },
+  {
+    "id": "1000005",
+    "name": "Кипрейный мёд",
+    "description": "Мёд из цветков иван-чая, обладает успокаивающими свойствами, помогает при бессоннице и стрессе.",
+    "img": "https://raw.githubusercontent.com/akane-ri/wellhoney-assets/refs/heads/main/imageHoney/kipreinii.png",
+    "price_500ml": 2599,
+    "price_1l": 4999
+  },
+  {
+    "id": "1000006",
+    "name": "Кедровый мёд",
+    "description": "Собирается пчелами с кедровых шишек, имеет темно-коричневый цвет и насыщенный вкус, богатый витаминами и микроэлементами.",
+    "img": "https://raw.githubusercontent.com/akane-ri/wellhoney-assets/refs/heads/main/imageHoney/kedrovii.png",
+    "price_500ml": 3799,
+    "price_1l": 6499
+  },
+  {
+    "id": "1000007",
+    "name": "Белый мёд",
+    "description": "Редкий сорт, его источниками являются белая акация, содержит витамины группы B, железо, кальций, фосфор, магний, ферменты и антиоксиданты.",
+    "img": "https://raw.githubusercontent.com/akane-ri/wellhoney-assets/refs/heads/main/imageHoney/kedrovii.png",
+    "price_500ml": 4799,
+    "price_1l": 7499
+  }
+]

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/order_details_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Детали заказа"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:id="@+id/order_items_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/order_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Итого: 0 ₽"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingTop="12dp"
+        android:textColor="@color/dark_orange" />
+
+    <TextView
+        android:id="@+id/order_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата: 01.01.2025"
+        android:textSize="14sp"
+        android:paddingTop="4dp" />
+
+</LinearLayout>

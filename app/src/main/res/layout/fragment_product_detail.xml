@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_fragment_rounded"
+    android:clipToOutline="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageProduct"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_placeholder" />
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Название"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Описание" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/itemPrice500ml"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:text="1990"
+                android:textColor="@color/dark_orange"
+                android:textSize="30sp"
+                android:gravity="end"/>
+
+            <TextView
+                android:id="@+id/itemPrice1l"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="3990"
+                android:textColor="@color/dark_orange"
+                android:textSize="30sp"
+                android:gravity="end" />
+
+    </LinearLayout>
+
+
+    <!-- Горизонтальный контейнер для 500мл и 1л -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- Блок 500мл -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1">
+
+            <!-- Кнопка -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAddToCart500"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="В корзину 500мл"
+                android:textColor="@android:color/white"
+                app:backgroundTint="@color/dark_orange"
+                app:cornerRadius="25dp" />
+
+            <!-- Счётчик -->
+            <LinearLayout
+                android:id="@+id/quantityLayout500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnDecrease500"
+                    style="@style/Widget.MaterialComponents.Button"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:text="-"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="@color/dark_orange"
+                    app:cornerRadius="25dp" />
+
+                <TextView
+                    android:id="@+id/tvQuantity500"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textSize="18sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnIncrease500"
+                    style="@style/Widget.MaterialComponents.Button"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:text="+"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="@color/dark_orange"
+                    app:cornerRadius="25dp" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Блок 1л -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <!-- Кнопка -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAddToCart1"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="В корзину 1л"
+                android:textColor="@android:color/white"
+                app:backgroundTint="@color/dark_orange"
+                app:cornerRadius="25dp" />
+
+            <!-- Счётчик -->
+            <LinearLayout
+                android:id="@+id/quantityLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnDecrease1"
+                    style="@style/Widget.MaterialComponents.Button"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:text="-"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="@color/dark_orange"
+                    app:cornerRadius="25dp" />
+
+                <TextView
+                    android:id="@+id/tvQuantity1"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textSize="18sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnIncrease1"
+                    style="@style/Widget.MaterialComponents.Button"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:text="+"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="@color/dark_orange"
+                    app:cornerRadius="25dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
