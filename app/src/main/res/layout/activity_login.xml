@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true">
 
 
     <ImageView
@@ -74,6 +75,7 @@
             app:rippleColor="@android:color/transparent" />
 
 
+        <!-- google auth
         <com.google.android.gms.common.SignInButton
             android:id="@+id/buttonGoogle"
             android:layout_width="match_parent"
@@ -83,7 +85,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/buttonLogin" />
-
+        -->
         <!-- Кнопка регистрации -->
         <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonRegister"

@@ -36,9 +36,9 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
 
-        binding.buttonGoogle.setOnClickListener {
-
-        }
+//        binding.buttonGoogle.setOnClickListener {
+//
+//        }
 
         viewModel.loginState.observe(this) { result ->
             result.onSuccess {
